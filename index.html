@@ -21,13 +21,5 @@
 <body>
   <script src="flutter_bootstrap.js" async></script>
 
-  <!-- Register service worker for offline support -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=2313593342');
-      });
-    }
-  </script>
 </body>
 </html>
